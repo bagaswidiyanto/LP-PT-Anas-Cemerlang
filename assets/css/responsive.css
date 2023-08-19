@@ -1,0 +1,126 @@
+/********** Template CSS **********/
+:root {
+    --primary: #00A144;
+    /* --secondary: #FFC700; */
+    --light: #ffffff;
+    --dark: #000000;
+}
+
+@media only screen and (min-width: 600px)  {
+    /* Hero Header */
+    .hero-header .content-hero img {
+        max-height: 70px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .video-yt .card-title h2 {
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 35%;
+    }
+
+    .video-yt-bottom .card-title h2 {
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 35%;
+        left: -30%;
+    }
+
+    .footer .location {
+        width: 300px;
+        padding: 2.4rem 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-bottom: 0;
+    }
+   
+}
+
+@media only screen and (min-width: 992px)  {
+    .misi .caption .box .card-body {
+        padding: 1.5rem 1.3rem 1.3rem;
+    }
+
+    .footer .location {
+        width: 400px;
+        padding: 2.5rem;
+    }
+
+    .misi .caption .box .card-body {
+        height: 12.8rem;
+    }
+
+    .footer {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+}
+
+
+@media only screen and (min-width: 1200px)  {
+    .misi .caption .box .card-body {
+        padding: 1.5rem 1.3rem 3rem;
+    }
+
+    .misi .caption .box .img {
+        max-height: 218px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1400px)  {
+    .misi .caption .box .img {
+        max-height: 232px;
+    }
+    .misi .caption .box .card-body {
+        height: 14.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    .about-us .caption .header-title p {
+        font-size: .8rem;
+    }
+
+    .general-contractor .tab-content .owl-prev{
+        left: -12px;
+    }
+    
+    .general-contractor .tab-content .owl-next{
+        right: -12px;
+    }
+
+    .training-service .swiper-button-prev {
+        left: -20px;
+    }
+
+    .training-service .swiper-button-next {
+        right: -20px;
+    }
+
+    .training-service-full .swiper-button-prev {
+        left: -20px;
+    }
+
+    .training-service-full .swiper-button-next {
+        right: -20px;
+    }
+
+    .training-service-full .box .img {
+        max-height: 175px;
+        height: 175px;
+    }
+
+    .training-service .heading-side p {
+        text-align: center;
+    }
+}
+
+
+
+
+
